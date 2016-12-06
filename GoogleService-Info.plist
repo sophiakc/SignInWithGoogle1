@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>112498669025-jbtasq3jk47lg8h6al63g3e7anj1v9as.apps.googleusercontent.com</string>
+	<string>112498669025-8hbah5t44g87d7cnuk0vtiptn8rqh1cu.apps.googleusercontent.com</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.112498669025-jbtasq3jk47lg8h6al63g3e7anj1v9as</string>
+	<string>com.googleusercontent.apps.112498669025-8hbah5t44g87d7cnuk0vtiptn8rqh1cu</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>112498669025-8hbah5t44g87d7cnuk0vtiptn8rqh1cu.apps.googleusercontent.com</string>
+	<string>com.example.QuickstartApp</string>
 	<key>PROJECT_ID</key>
 	<string>project-5814795812516265055</string>
 	<key>IS_ADS_ENABLED</key>

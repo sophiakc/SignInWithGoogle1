@@ -15,8 +15,9 @@
 		7E90E1681DF63EE100C8B616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90E1661DF63EE100C8B616 /* LaunchScreen.storyboard */; };
 		7E90E1731DF63EE100C8B616 /* SignInWithGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90E1721DF63EE100C8B616 /* SignInWithGoogleTests.swift */; };
 		7E90E17E1DF63EE100C8B616 /* SignInWithGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90E17D1DF63EE100C8B616 /* SignInWithGoogleUITests.swift */; };
-		7E90E18C1DF63FEE00C8B616 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E90E18B1DF63FEE00C8B616 /* GoogleService-Info.plist */; };
 		7E90E1971DF6759E00C8B616 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90E1961DF6759D00C8B616 /* SignInViewController.swift */; };
+		7E90E1991DF6887D00C8B616 /* client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E90E1981DF6887C00C8B616 /* client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist */; };
+		7E90E19B1DF68D4900C8B616 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E90E19A1DF68D4900C8B616 /* GoogleService-Info.plist */; };
 		C7C7B9E7571BBFF7A33AAABF /* Pods_SignInWithGoogleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5290C1A0C611A138F7FED63B /* Pods_SignInWithGoogleTests.framework */; };
 		F394A39C111CF7434867F91F /* Pods_SignInWithGoogleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2786019485B9FE42C40B3F8 /* Pods_SignInWithGoogleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,9 +58,11 @@
 		7E90E1791DF63EE100C8B616 /* SignInWithGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E90E17D1DF63EE100C8B616 /* SignInWithGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleUITests.swift; sourceTree = "<group>"; };
 		7E90E17F1DF63EE100C8B616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E90E18B1DF63FEE00C8B616 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E90E1951DF6476500C8B616 /* SignInWithGoogle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignInWithGoogle-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E90E1961DF6759D00C8B616 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7E90E1981DF6887C00C8B616 /* client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		7E90E19A1DF68D4900C8B616 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E90E19C1DF69FC300C8B616 /* SignInWithGoogle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithGoogle.entitlements; sourceTree = "<group>"; };
 		82789939C8AF49B041FFBD0D /* Pods-SignInWithGoogleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithGoogleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignInWithGoogleUITests/Pods-SignInWithGoogleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2786019485B9FE42C40B3F8 /* Pods_SignInWithGoogleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithGoogleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7436615C190211254D90C29 /* Pods_SignInWithGoogle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithGoogle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +110,8 @@
 		7E90E1511DF63EE100C8B616 = {
 			isa = PBXGroup;
 			children = (
-				7E90E18B1DF63FEE00C8B616 /* GoogleService-Info.plist */,
+				7E90E1981DF6887C00C8B616 /* client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist */,
+				7E90E19A1DF68D4900C8B616 /* GoogleService-Info.plist */,
 				7E90E15C1DF63EE100C8B616 /* SignInWithGoogle */,
 				7E90E1711DF63EE100C8B616 /* SignInWithGoogleTests */,
 				7E90E17C1DF63EE100C8B616 /* SignInWithGoogleUITests */,
@@ -130,6 +134,7 @@
 		7E90E15C1DF63EE100C8B616 /* SignInWithGoogle */ = {
 			isa = PBXGroup;
 			children = (
+				7E90E19C1DF69FC300C8B616 /* SignInWithGoogle.entitlements */,
 				7E90E15D1DF63EE100C8B616 /* AppDelegate.swift */,
 				7E90E15F1DF63EE100C8B616 /* ViewController.swift */,
 				7E90E1961DF6759D00C8B616 /* SignInViewController.swift */,
@@ -250,8 +255,14 @@
 				TargetAttributes = {
 					7E90E1591DF63EE100C8B616 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 59RRT9P88A;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					7E90E16D1DF63EE100C8B616 = {
 						CreatedOnToolsVersion = 8.0;
@@ -291,7 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E90E1681DF63EE100C8B616 /* LaunchScreen.storyboard in Resources */,
-				7E90E18C1DF63FEE00C8B616 /* GoogleService-Info.plist in Resources */,
+				7E90E1991DF6887D00C8B616 /* client_105167947574-8haedi8o749lh7ha60bppb1np2tkr0bq.apps.googleusercontent.com.plist in Resources */,
+				7E90E19B1DF68D4900C8B616 /* GoogleService-Info.plist in Resources */,
 				7E90E1651DF63EE100C8B616 /* Assets.xcassets in Resources */,
 				7E90E1631DF63EE100C8B616 /* Main.storyboard in Resources */,
 			);
@@ -610,6 +622,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SignInWithGoogle/SignInWithGoogle.entitlements;
+				DEVELOPMENT_TEAM = 59RRT9P88A;
 				INFOPLIST_FILE = SignInWithGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sophiakc.SignInWithGoogle;
@@ -626,6 +640,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SignInWithGoogle/SignInWithGoogle.entitlements;
+				DEVELOPMENT_TEAM = 59RRT9P88A;
 				INFOPLIST_FILE = SignInWithGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sophiakc.SignInWithGoogle;

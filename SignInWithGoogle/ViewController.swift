@@ -15,7 +15,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     
     /// From tuto Google Calendar API: https://developers.google.com/google-apps/calendar/quickstart/ios?ver=swift#step_1_turn_on_the_api_name
     private let kKeychainItemName = "Google Calendar API"
-    private let kClientID = "112498669025-jbtasq3jk47lg8h6al63g3e7anj1v9as.apps.googleusercontent.com"
+    private let kClientID = "112498669025-8hbah5t44g87d7cnuk0vtiptn8rqh1cu.apps.googleusercontent.com"
 
     
     // If modifying these scopes, delete your previously saved credentials by
