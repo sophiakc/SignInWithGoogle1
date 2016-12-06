@@ -6,6 +6,8 @@ target 'SignInWithGoogle' do
   use_frameworks!
 
 pod 'Google/SignIn'
+pod 'GoogleAPIClient/Calendar', '~> 1.0.2'
+pod 'GTMOAuth2', '~> 1.1.0'
 
   # Pods for SignInWithGoogle
 

@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     var window: UIWindow?
 
     // Beginning of Methods from tuto: https://developers.google.com/identity/sign-in/ios/sign-in?ver=swift
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : AnyObject]? = nil) -> Bool {
         // Initialize sign-in
         var configureError: NSError?
         GGLContext.sharedInstance().configureWithError(&configureError)
@@ -26,15 +26,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         return true
     }
     
+    
     func application(application: UIApplication,
-        openURL url: NSURL, options: [String: AnyObject]) -> Bool {
+        openURL url: URL, options: [String: AnyObject]) -> Bool {
             return GIDSignIn.sharedInstance().handle(url as URL!,
                 sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication.rawValue] as? String,
                 annotation: options[UIApplicationOpenURLOptionsKey.annotation.rawValue])
     }
     
     func application(application: UIApplication,
-        openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        openURL url: URL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
             var options: [String: AnyObject] = [UIApplicationOpenURLOptionsKey.sourceApplication.rawValue: sourceApplication as AnyObject, UIApplicationOpenURLOptionsKey.annotation.rawValue: annotation!]
             return GIDSignIn.sharedInstance().handle(url as URL!,
                 sourceApplication: sourceApplication,
